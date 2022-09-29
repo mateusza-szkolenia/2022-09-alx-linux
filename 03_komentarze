@@ -1,0 +1,12 @@
+# autor: Mateusz Adamowski
+# data utworzenia: 2022-09-29
+
+echo "Cześć"
+
+# wyświetla bieżącą datę w formacie YYYY-MM-DD
+date +%F
+
+#ls -l
+
+# Koniec
+
