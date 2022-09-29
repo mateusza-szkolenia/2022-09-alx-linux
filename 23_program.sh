@@ -8,7 +8,7 @@ wiek=$(( rokb - roku ))
 
 echo "Wiek: $wiek"
 
-if test "$wiek" -ge 18
+if [ "$wiek" -ge 18 ]
 then
 	echo "Pełnoletni"
 else
