@@ -8,5 +8,5 @@ zwierzak=kot
 # zwierzak = kot
 # NIE ZADZIAŁA
 
-echo "Ala ma $zwierzak"
+echo "Ala ma $zwierzak a"
 
