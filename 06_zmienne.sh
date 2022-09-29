@@ -1,7 +1,7 @@
 #!/bin/bash
 
 zwierzak=kot
-format_daty="%F"
+format_daty="%F-%T"
 dzisiaj=$(date +$format_daty)
 
 # Nie moze tu być spacji!
