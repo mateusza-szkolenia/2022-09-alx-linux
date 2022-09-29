@@ -3,6 +3,6 @@
 rokb="$(date +%Y)"
 roku="$1"
 
-wiek="$((rokb - roku))"
+(( wiek = rokb - roku ))
 
 echo "Wiek: $wiek"
