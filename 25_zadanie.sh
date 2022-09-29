@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 dzisiaj=$(date +%Y%m%d)
 zrodlo="$HOME/firma"
 cel="/tmp/firma-$dzisiaj"
@@ -12,13 +14,7 @@ then
 	echo "Katalog istnieje, nic do roboty"
 else
 	echo "Kopiuję do katalogu tymczasowego"
-	if cp -r "$zrodlo" "$cel.temp"
-	then
-		echo "Udało się"
-	else
-		echo "Błąd podczas kopiowania!!!!!!!!!!!!!!!!!!!!"
-		exit 1
-	fi
+	cp -r "$zrodlo" "$cel.temp"
 
 	echo "Zmieniam nazwę na docelową ($cel)"
 	mv "$cel.temp" "$cel"
