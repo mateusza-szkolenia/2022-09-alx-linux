@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Parametr zerowy: $0"
+
 echo "Parametr pierwszy: $1"
 echo "Parametr drugi: $2"
 echo "P: $3"
