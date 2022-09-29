@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Podaj nazwę katalogu:"
-read katalog
+read -p "Podaj nazwę katalogu: " katalog
 
 echo "Tworzę katalog $katalog"
 mkdir "$katalog"
