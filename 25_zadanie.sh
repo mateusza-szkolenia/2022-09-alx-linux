@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x
 set -e
 
 dzisiaj=$(date +%Y%m%d)
