@@ -1,4 +1,4 @@
 #!/usr/bin/python2
 
-print "Ala ma kota"
+print "Ala ma kota i psa"
 print 2 + 2
