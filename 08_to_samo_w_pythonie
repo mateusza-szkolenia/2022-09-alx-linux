@@ -2,8 +2,11 @@
 
 import datetime
 import shutil
+import subprocess
 
-dzisiaj = datetime.datetime.now()
+dzisiaj = datetime.datetime.now().strftime("%F")
 
-# TODO
+subprocess.run(["tar", "zcvf", "etc-kopia-python-" + dzisiaj+ ".tar.gz", "/etc"])
+
+shutil.copy("etc-kopia-python-" + dzisiaj+ ".tar.gz", "/tmp/")
 
