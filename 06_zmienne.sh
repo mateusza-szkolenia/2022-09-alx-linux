@@ -1,6 +1,7 @@
 #!/bin/bash
 
 zwierzak=kot
+dzisiaj=$(date +%F)
 
 # Nie moze tu być spacji!
 #
@@ -8,6 +9,7 @@ zwierzak=kot
 # zwierzak = kot
 # NIE ZADZIAŁA
 
-echo "Ala ma ${zwierzak}a"
+echo "Ala ma ${zwierzak}a a dzisiaj jest $dzisiaj"
+
 
 
