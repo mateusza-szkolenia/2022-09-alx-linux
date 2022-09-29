@@ -1,0 +1,3 @@
+echo Dzień dobry
+echo "Zalogowany użytkownik to: $(whoami)"
+echo "Dzisiaj jest $(date +%F)"
