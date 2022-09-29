@@ -3,7 +3,7 @@
 
 read -p "nazwa konta: " konto
 
-if grep "^$konto:" /etc/passwd
+if grep "^$konto:" /etc/passwd > /dev/null
 then
 	echo "Konto ($konto) istnieje"
 else
