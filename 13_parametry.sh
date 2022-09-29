@@ -7,3 +7,6 @@ echo "P: $4"
 echo "P: $5"
 echo "P: $6"
 echo "P: $7"
+
+echo "Łącznie przekazano $# parametrów"
+
