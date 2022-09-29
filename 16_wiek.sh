@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "Wiek: $((2022 - 1985))"
+rokb=2022
+roku=1985
+
+echo "Wiek: $((rokb - roku))"
