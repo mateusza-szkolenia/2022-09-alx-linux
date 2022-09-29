@@ -1,0 +1,4 @@
+echo "Dzień dobry"
+date +%F
+echo "To tyle"
+
