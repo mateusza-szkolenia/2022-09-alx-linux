@@ -1,6 +1,6 @@
 #!/bin/bash
 
 rokb="$(date +%Y)"
-roku=1985
+roku="$1"
 
 echo "Wiek: $((rokb - roku))"
