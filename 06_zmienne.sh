@@ -1,7 +1,8 @@
 #!/bin/bash
 
 zwierzak=kot
-dzisiaj=$(date +%F)
+format_daty="%F"
+dzisiaj=$(date +$format_daty)
 
 # Nie moze tu być spacji!
 #
