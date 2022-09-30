@@ -4,6 +4,6 @@ for skrypt in *.sh
 do
 	echo "skr: $skrypt"
 
-	grep "ala" "$skrypt"
+	grep -i "ala" "$skrypt"
 
 done
