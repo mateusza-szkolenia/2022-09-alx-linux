@@ -9,7 +9,7 @@ function powitanie {
 	echo "imie = $imie"
 	echo "firma = $firma"
 	echo "szko = $szkolenie"
-	echo "wszystkie parametry: [$@]"
+	echo "wszystkie parametry: [$*]"
 }
 
 powitanie Mateusz ALX Linux

@@ -5,7 +5,7 @@ function abc {
 	echo "parametr 1: $1"
 	echo "parametr 2: $2"
 	echo "ile: $#"
-	echo "wszystkie: $@"
+	echo "wszystkie: $*"
 
 	shift
 
@@ -14,7 +14,8 @@ function abc {
 	echo "parametr 1: $1"
 	echo "parametr 2: $2"
 	echo "ile: $#"
-	echo "wszystkie: $@"
+	echo "wszystkie: $*"
+	echo "każdy" "$@"
 
 }
 

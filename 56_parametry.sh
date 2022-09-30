@@ -5,7 +5,7 @@ function powitanie {
 	echo "p1 = $1"
 	echo "p2 = $2"
 	echo "p3 = $3"
-	echo "wszystkie parametry: [$@]"
+	echo "wszystkie parametry: [$*]"
 }
 
 powitanie Mateusz
