@@ -2,7 +2,7 @@
 
 for skrypt in *.sh
 do
-	if grep -i "ala" "$skrypt"
+	if grep -q -i "ala" "$skrypt"
 	then
 		echo "$skrypt"
 	fi
