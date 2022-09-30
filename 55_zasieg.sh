@@ -1,6 +1,7 @@
 #!/bin/bash
 
 function abc {
+	local imie
 	echo "imie w funkcji: $imie"
 	imie=Marcin
 	echo "imie po raz drugi: $imie"
