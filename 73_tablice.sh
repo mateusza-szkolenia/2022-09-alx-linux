@@ -9,6 +9,9 @@ adresy=(
 	*.md
 )
 
+adresy+=("jeszcze jeden")
+adresy+=(jeszcze dwa)
+
 echo "${adresy} - element nr 0 (pierwszy)"
 echo "${adresy[0]} element nr 0"
 echo "${adresy[1]} element nr 1"
