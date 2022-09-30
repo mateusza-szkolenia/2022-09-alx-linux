@@ -2,6 +2,7 @@
 
 for rok in {1930..1950}
 do
+	echo "Rok: $rok"
 
 	if [ "$rok" -ge 1939 ] && [ "$rok" -le 1945 ]
 	then
@@ -9,6 +10,7 @@ do
 		continue
 	fi
 
-	echo "Rok: $rok"
+	echo "Piękny to był rok"
+
 done
 
