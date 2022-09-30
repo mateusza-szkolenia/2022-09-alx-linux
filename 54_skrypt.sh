@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repo=''
+
 # source 54_ustawienia.sh
 . 54_ustawienia.sh
 
