@@ -1,8 +1,11 @@
 #!/bin/bash
 
 function abc {
-	local imie
+	# tutaj jeszcze jest to zmienna globalna
 	echo "imie w funkcji: $imie"
+
+	# a tu już lokalna
+	local imie
 	imie=Marcin
 	echo "imie po raz drugi: $imie"
 }
@@ -10,5 +13,5 @@ function abc {
 imie=Mateusz
 echo "imie w głównym skrypcie: $imie"
 abc
-echo "imie w głóœnym skrypcie po raz drugi: $imie"
+echo "imie w głównym skrypcie po raz drugi: $imie"
 
