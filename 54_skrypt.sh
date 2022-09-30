@@ -1,6 +1,9 @@
 #!/bin/bash
 
-source 54_ustawienia.sh
+# source 54_ustawienia.sh
+. 54_ustawienia.sh
+
+# kropka oznacza to samo co source
 
 powitanie
 
