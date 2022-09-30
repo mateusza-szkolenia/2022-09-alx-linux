@@ -1,10 +1,14 @@
 #!/bin/bash
 
 function powitanie {
+	local imie=$1
+	local firma=$2
+	local szkolenie=$3
+
 	echo "-----powitanie------"
-	echo "p1 = $1"
-	echo "p2 = $2"
-	echo "p3 = $3"
+	echo "p1 = $imie"
+	echo "p2 = $firma"
+	echo "p3 = $szkolenie"
 	echo "wszystkie parametry: [$@]"
 }
 
