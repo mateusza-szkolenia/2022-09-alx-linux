@@ -4,7 +4,7 @@ plik="STOP"
 
 echo "Aby przerwać pętlę, utwórz plik $plik"
 
-while ! [ -e "$plik" ]
+until [ -e "$plik" ]
 do
 	echo -n "Dzień dobry: "
 	date +%T
