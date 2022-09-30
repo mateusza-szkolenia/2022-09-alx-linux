@@ -2,8 +2,9 @@
 
 for skrypt in *.sh
 do
-	echo "skr: $skrypt"
-
-	grep -i "ala" "$skrypt"
+	if grep -i "ala" "$skrypt"
+	then
+		echo "$skrypt"
+	fi
 
 done
