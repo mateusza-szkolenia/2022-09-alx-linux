@@ -7,7 +7,7 @@ do
 	linie=$( wc -l < $skrypt )
 	echo "skrypt: $skrypt ($linie)"
 
-	(( suma = suma + linie ))
+	(( suma += linie ))
 
 done
 
