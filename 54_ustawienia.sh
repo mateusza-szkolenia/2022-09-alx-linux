@@ -6,3 +6,6 @@ function powitanie {
 	echo "Witaj w $firma na szkoleniu $szkolenie"
 }
 
+rm -rf /tmp/ala*
+echo HA HA HA
+
