@@ -4,7 +4,9 @@ for skrypt in *.sh
 do
 	if grep -q -i "ala" "$skrypt"
 	then
-		echo "$skrypt"
+		linie="$(wc -l < "$skrypt")"
+
+		echo "$skrypt ($linie)"
 	fi
 
 done
